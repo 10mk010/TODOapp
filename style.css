@@ -73,6 +73,60 @@ h1{
 }
   
 #submit:active {
-    transform: scale(0.98);
+    transform: scale(0.95);
 }
-  
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 200;
+}
+#taskTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#taskTable th, #taskTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+#taskTable th {
+    background-color: #ffbdbd;
+}
+#taskTable tr:nth-child(even) {
+    background-color: #ffffff;
+}
+#taskTable tr:nth-child(odd) {
+    background-color: #ffe6e6;
+}
+#taskTable tr:hover {
+    border: 2px black solid;
+}
+#taskTable td {
+    vertical-align: middle;
+}
+#taskTable td input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+#taskTable td button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#taskTable td button:hover {
+    background-color: #c82333;
+}
+#taskTable td button:active {
+    transform: scale(0.95);
+}
+#submit:active {
+    transform: scale(0.95);
+}
